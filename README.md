@@ -2,7 +2,7 @@
 
 This starter repo is built for **Option 3**:
 - Instructor updates quizzes/tests freely
-- Student work is isolated in `submissions/` so it won't be overwritten
+- Student work is isolated in `submissions/` so it won't be overwritten 
 
 ## Golden rule
 Students edit **ONLY**:
