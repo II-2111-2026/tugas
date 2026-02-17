@@ -1,5 +1,5 @@
 ---
-title: "Quiz w04 — Placeholder"
+title: "Quiz w04 — Minggu 04 (soal dari strategi.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,96 @@ execute:
   message: false
 ---
 
-Week w04 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w04/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w04/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Jika kejadian  dan  independen, maka = .
+
+## Q02 (T/F)
+
+Probabilitas kondisional  selalu sama dengan .
+
+## Q03 (T/F)
+
+Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari 
+menjadi .
+
+## Q04 (MC)
+
+Jika = 0, 5, = 0,  dan ,  independen, maka  adalah:
+
+- **A)** 0,9
+- **B)** 0,1
+- **C)** 0,2
+- **D)** 0,5
+
+## Q05 (MC)
+
+Rumus Bayes menyatakan bahwa  sama dengan:
+
+Minggu 05: Variabel Acak, Ekspektasi, dan Variansi
+Minggu ini menandai transisi dari kejadian diskrit ke variabel numerik. Mahasiswa belajar
+memetakan hasil dunia nyata ke dalam fungsi matematika. Konsep nilai harapan
+(ekspektasi) diperkenalkan sebagai representasi keuntungan jangka panjang atau rata-rata
+beban sistem.
+
+- **A)** 
+- **B)** 
+- **C)** 
+- **D)** 
+
+## Q06 (MC)
+
+Kejadian di mana hasil satu eksperimen tidak mempengaruhi hasil eksperimen
+lainnya disebut:
+
+- **A)** Saling lepas.
+- **B)** Independen.
+- **C)** Kondisional.
+- **D)** Komplementer.
+
+## Q07 (MC)
+
+Jika sebuah tes medis memiliki sensitivitas tinggi, maka:
+
+- **A)** Banyak hasil false positive.
+- **B)** Probabilitas mendeteksi orang sakit sangat tinggi.
+- **C)** Probabilitas mendeteksi orang sehat sangat tinggi.
+- **D)** Tes tersebut tidak berguna.
+
+## Q08 (Numeric)
+
+Jika = 0,  dan = 0, 5, berapakah ?
+
+## Q09 (Numeric)
+
+Probabilitas hujan adalah 0,1. Jika hujan, probabilitas jalan macet adalah 0,8.
+Berapa probabilitas (Hujan DAN Macet)?
+
+## Q10 (Numeric)
+
+Dalam sebuah populasi, 1% menderita penyakit. Sebuah tes memiliki akurasi
+99% (baik untuk yang sakit maupun sehat). Jika seseorang dites positif, berapa
+probabilitas dia benar-benar sakit?
+
+## Q11 (Numeric)
+
+Jika = 0, , = 0,  dan = 0, , hitung  menggunakan Hukum Probabilitas Total.
+
+## Q12 (Numeric)
+
+Dari soal nomor 11, hitung  menggunakan Teorema Bayes (Gunakan 3
+desimal).
