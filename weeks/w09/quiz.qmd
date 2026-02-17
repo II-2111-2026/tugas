@@ -1,5 +1,5 @@
 ---
-title: "Quiz w09 — Placeholder"
+title: "Quiz w09 — Minggu 09 (soal dari strategi.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,96 @@ execute:
   message: false
 ---
 
-Week w09 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w09/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w09/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Jika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti
+independen.
+
+## Q02 (T/F)
+
+PDF marginal  didapatkan dengan mengintegralkan ,  terhadap  dari − ke .
+
+## Q03 (T/F)
+
+Nilai koefisien korelasi selalu berada di antara -1 dan 1.
+
+## Q04 (MC)
+
+Jika  dan  independen, maka  sama dengan:
+
+- **A)** 
+- **B)** 
+- **C)** 
+- **D)** 0
+
+## Q05 (MC)
+
+Manakah ukuran yang menunjukkan kekuatan hubungan linear antara dua
+variabel?
+
+Minggu 10: Distribusi Sampling dan Teorema Limit Pusat
+Minggu kesepuluh merupakan jembatan menuju statistika inferensial. Mahasiswa
+mempelajari perilaku rata-rata sampel dan keajaiban Teorema Limit Pusat (CLT) yang
+memungkinkan inferensi pada populasi besar.
+Bank Soal Mingguan
+Pertanyaan Konseptual
+
+- **A)** Variansi.
+- **B)** Mean.
+- **C)** Korelasi.
+- **D)** CDF.
+
+## Q06 (MC)
+
+Jika = , = , dan ,  independen, maka  adalah:
+
+- **A)** 13
+- **B)** 5
+- **C)** 36
+- **D)** 6,5
+
+## Q07 (MC)
+
+Fungsi probabilitas kondisional  didefinisikan sebagai:
+
+- **A)** ,
+- **B)** ,
+- **C)** 
+- **D)** , −
+
+## Q08 (Numeric)
+
+Jika , = , = , = , berapakah koefisien korelasinya?
+
+## Q09 (Numeric)
+
+Berapakah nilai  jika = 10 dan = 0?
+
+## Q10 (Numeric)
+
+Jika , = 1 untuk 0
+ dan 0
+, berapakah 1, 1?
+
+## Q11 (Numeric)
+
+Dalam tabel diskrit, jika 1, 1 = 0, 1 1, = 0, , 1 = 0, , = 0, , berapakah
+probabilitas marginal = 1?
+
+## Q12 (Numeric)
+
+Jika  dan  memiliki korelasi 1 dan = , berapakah ?

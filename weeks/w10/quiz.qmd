@@ -1,5 +1,5 @@
 ---
-title: "Quiz w10 — Placeholder"
+title: "Quiz w10 — Minggu 10 (soal dari strategi.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,91 @@ execute:
   message: false
 ---
 
-Week w10 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w10/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w10/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Teorema Limit Pusat menyatakan bahwa rata-rata sampel akan mendekati
+distribusi Normal jika ukuran sampel cukup besar ( 0).
+
+## Q02 (T/F)
+
+Rata-rata dari distribusi sampling rata-rata ($\bar{X}$) selalu sama dengan rata-rata
+populasi .
+
+## Q03 (T/F)
+
+Semakin besar ukuran sampel, semakin besar pula Standard Error-nya.
+
+## Q04 (MC)
+
+Jika populasi memiliki $\sigma = 10$ dan ukuran sampel $n = 100$, maka Standard Error (SE)
+adalah:
+
+- **A)** 10
+- **B)** 1
+- **C)** 0,1
+- **D)** 100
+
+## Q05 (MC)
+
+Distribusi sampling dari proporsi sampel p akan mendekati Normal jika:
+
+- **A)** sangat kecil.
+- **B)** p 5 dan 1 −p 5.
+- **C)** Populasi sangat heterogen.
+- **D)** p = 0, 5.
+
+## Q06 (MC)
+
+Faktor  dalam rumus Standard Error menunjukkan bahwa:
+
+- **A)** Error berkurang secara linear dengan .
+- **B)** Untuk mengurangi error menjadi setengahnya, kita butuh sampel 4 kali lebih banyak.
+- **C)** Error tidak dipengaruhi oleh .
+- **D)** Sampel besar selalu buruk.
+
+## Q07 (MC)
+
+Statistik sampel yang digunakan untuk menduga parameter populasi disebut:
+
+- **A)** Estimator.
+- **B)** Variabel.
+- **C)** Konstanta.
+- **D)** Bias.
+
+## Q08 (Numeric)
+
+Jika = 50 dan = 10, berapakah nilai rata-rata dari distribusi sampling rata-
+rata untuk = 5?
+
+## Q09 (Numeric)
+
+Hitung Standard Error jika = 1 dan = 6.
+
+## Q10 (Numeric)
+
+Jika rata-rata populasi 100 dan Standard Error 2, berapakah skor-Z untuk
+rata-rata sampel = 10?
+
+## Q11 (Numeric)
+
+Jika ukuran sampel adalah 64 dan simpangan baku populasi 8, berapakah
+simpangan baku distribusi rata-rata sampel?
+
+## Q12 (Numeric)
+
+Berapakah nilai rata-rata sampel  jika skor-Z nya adalah 1,5, = 0, dan
+Standard Error = 4?

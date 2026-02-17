@@ -1,5 +1,5 @@
 ---
-title: "Quiz w13 — Placeholder"
+title: "Quiz w13 — Minggu 13 (soal dari strategi.pdf)"
 format: html
 execute:
   echo: true
@@ -7,4 +7,93 @@ execute:
   message: false
 ---
 
-Week w13 is not released yet.
+## Cara mengerjakan
+
+- Jawab **hanya** dengan mengisi fungsi `q01()` s.d. `q12()` di `submissions/w13/answers.py`.
+- Kamu boleh memakai Python untuk menghitung, misalnya lewat `submissions/w13/laporan.qmd`.
+- Jangan ubah nama fungsi.
+
+### Format jawaban
+
+- **T/F**: kembalikan `True` (Benar) atau `False` (Salah).
+- **MC**: kembalikan huruf `"A"`, `"B"`, `"C"`, atau `"D"`.
+- **Numeric**: kembalikan bilangan `int` atau `float` (pakai titik `.` untuk desimal).
+
+---
+
+## Q01 (T/F)
+
+Garis regresi meminimalkan jumlah total selisih absolut antara data dan garis.
+ - meminimalkan kuadrat selisih).
+
+## Q02 (T/F)
+
+Nilai  sebesar 0,85 berarti 85% variasi pada variabel dependen dapat dijelaskan
+oleh variabel independen.
+
+## Q03 (T/F)
+
+Regresi linear berganda menggunakan lebih dari satu variabel independen untuk
+memprediksi satu variabel dependen.
+
+## Q04 (MC)
+
+Dalam persamaan = ,  merepresentasikan:
+
+- **A)** Intersep.
+- **B)** Kemiringan (slope).
+- **C)** Varians.
+- **D)** Galat.
+
+## Q05 (MC)
+
+Jika korelasi = −0, , maka hubungan antara kedua variabel adalah:
+
+Minggu 14: Aplikasi Statistika dalam Domain STI Lanjutan
+Minggu terakhir difokuskan pada sintesis seluruh materi melalui aplikasi modern seperti
+pengujian A/B, deteksi anomali, dan dasar-dasar inferensi untuk algoritma AI.
+Bank Soal Mingguan
+Pertanyaan Konseptual
+
+- **A)** Sangat lemah.
+- **B)** Sangat kuat dan negatif.
+- **C)** Tidak ada hubungan.
+- **D)** Positif.
+
+## Q06 (MC)
+
+Manakah nilai  yang menunjukkan model paling buruk?
+
+- **A)** 0,99
+- **B)** 0,50
+- **C)** 0,00
+- **D)** -1,00
+
+## Q07 (MC)
+
+Titik di mana garis regresi memotong sumbu  disebut:
+
+- **A)** Slope.
+- **B)** Intersep.
+- **C)** Origin.
+- **D)** Outlier.
+
+## Q08 (Numeric)
+
+Jika persamaan regresi adalah = 5 , berapakah nilai prediksi  untuk = 10?
+
+## Q09 (Numeric)
+
+Jika = 0, 6, berapakah nilai korelasi  (ambil nilai positif)?
+
+## Q10 (Numeric)
+
+Berapakah nilai rata-rata dari residual pada model regresi linear klasik?
+
+## Q11 (Numeric)
+
+Jika  naik 10 unit ketika  naik 2 unit, berapakah nilai slope ?
+
+## Q12 (Numeric)
+
+Jika = 0 dan = 10, berapakah nilai estimasi slope ?
