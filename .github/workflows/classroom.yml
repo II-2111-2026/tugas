@@ -78,7 +78,7 @@ jobs:
 
           # Render student-friendly report (single source of truth: answers.py)
           if [ -f "submissions/${WEEK}/laporan.qmd" ]; then
-            quarto render "submissions/${WEEK}/laporan.qmd"
+            quarto render
           else
             echo "No submissions/${WEEK}/laporan.qmd found; skipping."
           fi
